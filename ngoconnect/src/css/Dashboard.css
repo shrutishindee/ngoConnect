@@ -1,0 +1,43 @@
+  /* Dashboard container */
+/* Dashboard container */
+.dashboard-container {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  max-width: 1200px;
+  margin: 20px auto;
+  text-align: center;
+  margin-top: 100px; /* Adjust this value depending on your navbar height */
+}
+
+    
+    /* Title */
+    .dashboard-container h2 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    /* General text styles */
+    .dashboard-container p {
+      font-size: 1.2rem;
+      color: #555;
+      margin: 10px 0;
+    }
+    
+    /* Logout button */
+    .dashboard-container button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #0056b3;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .dashboard-container button:hover {
+      background-color: #003c8c;
+    }
+    
